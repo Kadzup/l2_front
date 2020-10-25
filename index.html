@@ -1,0 +1,34 @@
+<head>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <th>Task:</th>
+            <th>Due date</th>
+            <th>Days left</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div class="jsonapi">
+        <article id="responseArticle"></article>
+        <button onclick="request()">Request Jsonplaceholder with promise</button>
+    </div>
+    <footer>
+        <div class="bottom-inputs">
+            <input id="text" placeholder="Task text" required>
+            <input type="date" id="dueDate" placeholder="due date - MM/DD/YYYY" required>
+            <input type="submit" onclick="addRow()">
+        </div>
+    </footer>
+</body>
+
+
+
+
+
+
+
+<script src="./index.js"></script>

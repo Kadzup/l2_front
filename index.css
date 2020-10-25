@@ -1,0 +1,32 @@
+table {
+    width: 50%;
+  }
+
+th {
+    width: 20%;
+    border: 1px solid limegreen;
+  }
+
+td{
+      width: 20%;
+      border: 1px solid coral;
+}
+
+
+.bottom-inputs{
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.jsonapi
+  {
+    position: fixed;
+    bottom: 40%;
+    right: 15%;
+
+}
+
+button{
+  background-color: lightblue
+}
